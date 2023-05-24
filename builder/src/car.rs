@@ -38,7 +38,7 @@ impl Builder for CarBuilder {
         self.gps_navigator = Some(gps_navigator);
     }
 
-    fn build(self) -> Self::Output {
+    fn build(self) -> Car {
         Car::new(
             self.car_type.expect("Please, set a car type"),
             self.seats.expect("Please, set a number of seats"),
