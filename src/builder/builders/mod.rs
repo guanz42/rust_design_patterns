@@ -3,6 +3,9 @@ pub mod car_manual;
 
 use super::components::{CarType, Engine, GpsNavigator, Transmission};
 
+pub use car::CarBuilder;
+pub use car_manual::CarManualBuilder;
+
 pub trait Builder {
     type Output;
 

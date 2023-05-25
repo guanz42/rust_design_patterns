@@ -6,7 +6,7 @@ pub mod director;
 #[cfg(test)]
 mod tests {
     use crate::builder::{
-        builders::{car::CarBuilder, car_manual::CarManualBuilder, Builder},
+        builders::{Builder, CarBuilder, CarManualBuilder},
         cars::{Car, Manual},
         director::Director,
     };
