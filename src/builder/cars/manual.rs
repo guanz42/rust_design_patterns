@@ -1,4 +1,4 @@
-use crate::components::{CarType, Engine, GpsNavigator, Transmission};
+use crate::builder::components::{CarType, Engine, GpsNavigator, Transmission};
 
 pub struct Manual {
     car_type: CarType,

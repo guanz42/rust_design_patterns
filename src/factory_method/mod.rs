@@ -1,10 +1,12 @@
+#![allow(dead_code)]
+
 pub mod gui;
 pub mod html_gui;
 pub mod windows_gui;
 
-use crate::gui::Dialog;
-use crate::html_gui::HtmlDialog;
-use crate::windows_gui::WindowsDialog;
+use gui::Dialog;
+use html_gui::HtmlDialog;
+use windows_gui::WindowsDialog;
 
 pub fn initialize() -> &'static dyn Dialog {
     if cfg!(windows) {

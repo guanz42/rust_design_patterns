@@ -1,4 +1,6 @@
-use crate::components::{CarType, Engine, GpsNavigator, Transmission};
+#![allow(dead_code)]
+
+use crate::builder::components::{CarType, Engine, GpsNavigator, Transmission};
 
 pub struct Car {
     car_type: CarType,

@@ -1,4 +1,4 @@
-use crate::gui::{Button, CheckBox, GuiFactory, GuiFactoryDynamic};
+use super::gui::{Button, CheckBox, GuiFactory, GuiFactoryDynamic};
 
 pub struct MacButton;
 

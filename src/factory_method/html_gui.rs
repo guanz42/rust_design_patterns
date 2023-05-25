@@ -1,4 +1,4 @@
-use crate::gui::{Button, Dialog};
+use super::gui::{Button, Dialog};
 
 pub struct HtmlButton;
 

@@ -1,8 +1,10 @@
-use gui::{GuiFactory, GuiFactoryDynamic};
+#![allow(dead_code)]
 
 pub mod gui;
 pub mod macos;
 pub mod windows;
+
+use gui::{GuiFactory, GuiFactoryDynamic};
 
 pub fn render(factory: &impl GuiFactory) {
     let button1 = factory.create_button();

@@ -1,4 +1,7 @@
-use crate::components::{CarType, Engine, GpsNavigator, Transmission};
+pub mod car;
+pub mod car_manual;
+
+use super::components::{CarType, Engine, GpsNavigator, Transmission};
 
 pub trait Builder {
     type Output;

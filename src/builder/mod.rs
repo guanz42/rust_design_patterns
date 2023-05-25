@@ -1,18 +1,14 @@
-pub mod builder;
-pub mod car;
-pub mod car_manual;
+pub mod builders;
+pub mod cars;
 pub mod components;
 pub mod director;
-pub mod product;
 
 #[cfg(test)]
 mod tests {
-    use crate::{
-        builder::Builder,
-        car::CarBuilder,
-        car_manual::CarManualBuilder,
+    use crate::builder::{
+        builders::{car::CarBuilder, car_manual::CarManualBuilder, Builder},
+        cars::{Car, Manual},
         director::Director,
-        product::{Car, Manual},
     };
 
     #[test]
