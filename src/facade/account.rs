@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 pub struct Account {
     name: String,
 }

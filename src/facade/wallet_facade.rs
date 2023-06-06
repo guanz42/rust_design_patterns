@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 use super::{
     account::Account, ledger::Ledger, notification::Notification, security_code::SecurityCode,
     wallet::Wallet,
