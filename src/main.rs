@@ -6,6 +6,7 @@ mod composite;
 mod decorator;
 mod facade;
 mod factory_method;
+mod flyweight;
 mod prototype;
 mod singleton;
 
