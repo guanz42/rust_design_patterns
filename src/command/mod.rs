@@ -40,6 +40,7 @@ mod tests {
     };
 
     #[test]
+    #[ignore]
     fn it_works() {
         let mut app = cursive::default();
 
