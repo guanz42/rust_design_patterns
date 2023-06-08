@@ -8,6 +8,7 @@ mod facade;
 mod factory_method;
 mod flyweight;
 mod prototype;
+mod proxy;
 mod singleton;
 
 fn main() {
