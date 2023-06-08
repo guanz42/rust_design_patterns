@@ -1,5 +1,3 @@
-use std::task::Context;
-
 use cursive::{views::EditView, Cursive};
 
 use super::Command;

@@ -17,5 +17,5 @@ impl Command for CopyCommand {
         false
     }
 
-    fn undo(&mut self, app: &mut Cursive) {}
+    fn undo(&mut self, _app: &mut Cursive) {}
 }

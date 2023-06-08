@@ -1,6 +1,8 @@
-mod command;
+#![allow(dead_code)]
 
-use command::Command;
+mod commands;
+
+use commands::Command;
 use cursive::Cursive;
 
 #[derive(Default)]
@@ -33,8 +35,8 @@ mod tests {
     };
 
     use super::{
-        command::{CopyCommand, CutCommand, PasteCommand},
-        undo, AppContext,
+        commands::{CopyCommand, CutCommand, PasteCommand},
+        execute, undo, AppContext,
     };
 
     #[test]
