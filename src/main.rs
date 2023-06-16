@@ -10,6 +10,7 @@ mod facade;
 mod factory_method;
 mod flyweight;
 mod iterator;
+mod mediator;
 mod prototype;
 mod proxy;
 mod singleton;
