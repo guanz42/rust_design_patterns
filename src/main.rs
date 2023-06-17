@@ -11,6 +11,7 @@ mod factory_method;
 mod flyweight;
 mod iterator;
 mod mediator;
+mod memento;
 mod prototype;
 mod proxy;
 mod singleton;
