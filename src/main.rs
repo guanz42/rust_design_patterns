@@ -12,6 +12,7 @@ mod flyweight;
 mod iterator;
 mod mediator;
 mod memento;
+mod observer;
 mod prototype;
 mod proxy;
 mod singleton;
