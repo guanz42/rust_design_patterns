@@ -17,6 +17,7 @@ mod prototype;
 mod proxy;
 mod singleton;
 mod state;
+mod strategy;
 
 fn main() {
     println!("Hello, world!");
