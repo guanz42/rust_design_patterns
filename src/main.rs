@@ -16,6 +16,7 @@ mod observer;
 mod prototype;
 mod proxy;
 mod singleton;
+mod state;
 
 fn main() {
     println!("Hello, world!");
