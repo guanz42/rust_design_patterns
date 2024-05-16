@@ -8,7 +8,7 @@ mod tests {
 
         let mut input = BufReader::new(Cursor::new("Input Data"));
 
-        input.read(&mut buf).ok();
+        input.read_exact(&mut buf).ok();
 
         print!("Read from a buffered reader: ");
 
